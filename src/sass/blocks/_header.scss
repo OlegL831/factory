@@ -1,0 +1,56 @@
+.header {
+    padding-top: 37px;   
+    
+    &_blocks {
+        display: flex;
+        justify-content: space-between;
+        
+        &_email {
+            margin-top: 42px;
+            a {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                color: #222222; 
+            }
+        }
+        &_tel {
+            margin-top: 38px;
+            img {
+                margin-bottom: 7px;
+            }
+            a {
+                font-family: 'Roboto';
+                font-style: normal;
+                padding-top: 10px;
+                font-weight: 500;
+                font-size: 24px;
+                color: #222222; 
+            }
+        }
+
+    }
+    &_nav {
+        z-index: 1;
+        position: absolute;
+        nav {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 17px;
+                        text-transform: uppercase;
+                        color: var(--red);
+                    }
+                }
+            }
+        }
+    }
+}

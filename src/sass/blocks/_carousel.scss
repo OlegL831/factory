@@ -1,0 +1,45 @@
+.carousel {
+    position: relative;
+    top: -21px;
+    .slick-dots {
+        position: relative;
+        display: flex;
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        button {
+            position: relative;
+            margin: 5px;
+            bottom: 35px;
+            background-color: #fff;
+            border: none;
+            border-radius: 50%;
+            height: 10px;
+            width: 10px;
+            outline: none;
+            font-size: 0;
+        
+        }
+        .slick-active {
+            button {
+                background: var(--red);
+            }
+        }
+    } 
+    
+    &_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        top: -600px;
+        font-size: 350%;
+        line-height: 73px;
+        color: var(--white);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); 
+    }
+    
+    &_btn {
+        margin-top: -240px;
+        position: absolute;
+    }
+}        
