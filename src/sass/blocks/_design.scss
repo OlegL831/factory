@@ -1,0 +1,121 @@
+.design {
+    padding-top: 50px;
+    padding-bottom: 106px;
+    &_title {
+        width: 42%;
+        margin: auto;
+        margin-bottom: 52px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 300%;
+        line-height: 56px;
+        text-align: center;
+        color: var(--dark_grey);
+    }
+
+    &_subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--dark_grey);
+
+    }
+
+    &_block {
+        width: 44%;
+        margin: 0 auto;
+        padding-top: 17px;
+        font-family: 'Roboto';
+        font-style: normal;
+        line-height: 19px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #222222;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            color: var(--red);
+        }
+    }
+
+    &_hr {
+        width: 151px;
+        height: 1px;
+        margin-top: 21px;
+        margin-bottom: 10px;
+        background: #C4C4C4;
+    }
+
+    &_blocks {
+        display: flex;
+        
+        justify-content: space-between;
+        &_subblock {
+            display: flex;
+            width: 42%;
+            span {
+                display: block;
+                color: var(--red);
+                font-size: 48px;
+                font-family: 'Roboto';
+                font-weight: 700;
+                line-height: 56px;
+            }
+            p {
+                display: block;
+                padding-top: 6px;
+                padding-left: 13px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                line-height: 19px;
+                font-size: 16px;
+                color: #222222;
+                
+            }
+            &_p {
+                margin-top: 11px;
+            }
+        }
+    }
+    
+    &_icon {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        &_block {
+            width: 10%;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #222222;
+            &_wrapper {
+                position: relative;
+                width: 122.67px;
+                height: 122.67px;
+                margin-bottom: 29px;
+                border-radius: 100%;
+                background: #FFFFFF;
+                border: 1px solid #C4C4C4;
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    
+                }
+            }
+        }
+
+    }
+    
+    
+}

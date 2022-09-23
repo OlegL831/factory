@@ -120,6 +120,11 @@ h1, h2, h3, h4, h5, h6 {
 .carousel .slick-dots .slick-active button {
   background: var(--red);
 }
+.carousel_block {
+  position: absolute;
+  width: 62%;
+  margin-left: 260px;
+}
 .carousel_title {
   font-family: "Roboto";
   font-style: normal;
@@ -133,4 +138,124 @@ h1, h2, h3, h4, h5, h6 {
 .carousel_btn {
   margin-top: -240px;
   position: absolute;
+}
+
+.design {
+  padding-top: 50px;
+  padding-bottom: 106px;
+}
+.design_title {
+  width: 42%;
+  margin: auto;
+  margin-bottom: 52px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 300%;
+  line-height: 56px;
+  text-align: center;
+  color: var(--dark_grey);
+}
+.design_subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--dark_grey);
+}
+.design_block {
+  width: 44%;
+  margin: 0 auto;
+  padding-top: 17px;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #222222;
+}
+.design_block span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--red);
+}
+.design_hr {
+  width: 151px;
+  height: 1px;
+  margin-top: 21px;
+  margin-bottom: 10px;
+  background: #C4C4C4;
+}
+.design_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.design_blocks_subblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 42%;
+}
+.design_blocks_subblock span {
+  display: block;
+  color: var(--red);
+  font-size: 48px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 56px;
+}
+.design_blocks_subblock p {
+  display: block;
+  padding-top: 6px;
+  padding-left: 13px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 16px;
+  color: #222222;
+}
+.design_blocks_subblock_p {
+  margin-top: 11px;
+}
+.design_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 100px;
+}
+.design_icon_block {
+  width: 10%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+}
+.design_icon_block_wrapper {
+  position: relative;
+  width: 122.67px;
+  height: 122.67px;
+  margin-bottom: 29px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+}
+.design_icon_block_wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }/*# sourceMappingURL=styli.css.map */

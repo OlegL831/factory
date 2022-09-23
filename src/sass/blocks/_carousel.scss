@@ -27,6 +27,12 @@
         }
     } 
     
+    &_block {
+        position: absolute;
+        width: 62%;
+        margin-left: 260px;
+    }
+
     &_title {
         font-family: 'Roboto';
         font-style: normal;
