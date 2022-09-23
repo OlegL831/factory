@@ -37,7 +37,8 @@
         nav {
             ul {
                 display: flex;
-                justify-content: space-between;
+                padding-left: 0;
+                justify-content: space-around;
                 li {
                     list-style: none;
                     a {

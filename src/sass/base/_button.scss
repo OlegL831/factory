@@ -8,4 +8,8 @@
     text-transform: uppercase;
     color: var(--white);
     background-color: var(--red);
+    &_order {
+        width: 292px;
+        margin: auto;
+    }
 }

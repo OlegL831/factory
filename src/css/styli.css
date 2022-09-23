@@ -15,6 +15,10 @@
   color: var(--white);
   background-color: var(--red);
 }
+.btn_order {
+  width: 292px;
+  margin: auto;
+}
 
 body {
   margin: 0;
@@ -73,9 +77,9 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding-left: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .header_nav nav ul li {
   list-style: none;
@@ -167,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 .design_block {
   width: 44%;
   margin: 0 auto;
-  padding-top: 17px;
+  padding-top: 27px;
   font-family: "Roboto";
   font-style: normal;
   line-height: 19px;
@@ -258,4 +262,71 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.order {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background: url(../img/order/img.png) no-repeat;
+}
+.order_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  padding-bottom: 21px;
+  color: var(--white);
+}
+.order_subtitle {
+  width: 70%;
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #818181;
+}
+.order_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 432px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 40px;
+  margin: auto;
+}
+.order_form input {
+  margin-bottom: 13px;
+  padding-left: 13px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #818181;
+}
+.order_checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.order_checkbox input {
+  margin-right: 13px;
+  height: 13px;
+}
+.order_checkbox label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--white);
+  margin-bottom: 40px;
 }/*# sourceMappingURL=styli.css.map */
