@@ -32,8 +32,9 @@
 
     }
     &_nav {
-        z-index: 1;
         position: absolute;
+        z-index: 1;
+        top: -20px;
         nav {
             ul {
                 display: flex;

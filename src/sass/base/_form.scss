@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    width: 432px;
+    flex-direction: column;
+    padding-top: 40px;
+    margin: auto;
+    input {
+        margin-bottom: 13px;
+        padding-left: 13px;
+        height: 50px;
+        border-radius: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #818181;
+    }
+
+    &_checkbox {
+        display: flex;
+        input {
+            height: 12px;
+            margin-right: 13px;
+            margin-left: 4px;   
+        }
+        label {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            margin-bottom: 40px;
+            color: var(--white);
+
+        }
+    }
+   
+}
