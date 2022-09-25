@@ -24,6 +24,10 @@
   width: 292px;
   margin: auto;
 }
+.btn_price {
+  font-size: 24px;
+  padding: 19px 24px;
+}
 
 .form {
   display: -webkit-box;
@@ -65,6 +69,10 @@
   font-size: 14px;
   margin-bottom: 40px;
   color: var(--white);
+}
+.form_price {
+  width: 86%;
+  padding-top: 0;
 }
 
 body {
@@ -453,5 +461,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 .work_line {
   width: 100%;
-  margin-top: 99px;
+  margin-bottom: -189px;
+}
+
+.price {
+  background: url("../img/price/fon.png") no-repeat;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  margin-top: -15px;
+}
+.price_block {
+  border: 2px dashed #FFFFFF;
+  -webkit-filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.15));
+  border-radius: 25px;
+  padding: 63px 37px 57px 37px;
+}
+.price_title {
+  padding-bottom: 33px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--white);
+}
+.price_subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #818181;
 }/*# sourceMappingURL=styli.css.map */
