@@ -1,0 +1,38 @@
+.collaboration {
+    background: #F4F4F4;
+    padding-bottom: 89px;
+    &_title {
+        padding-bottom: 43px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        color: var(--dark_grey);
+    }
+    &_block {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        &_wrapper {
+            width: fit-content;
+            background: var(--white);
+            border-radius: 15px;
+            margin-bottom: 19px;
+            padding: 12px 18px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            color: var(--red);
+        }
+    }
+    &_line-2 {
+        justify-content: space-between;
+    }
+    &_line-3 {
+        margin: auto;
+    }
+    
+}
