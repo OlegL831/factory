@@ -17,4 +17,13 @@ $(document).ready(function(){
         slidesToShow: 6,
         slidesToScroll: 2,
     })
+
+    $('.partner_carousel').slick({
+        arrows: true,
+        speed: 2000,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+    })
 });

@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-size: 48px;
   text-align: center;
-  color: var(--dark-grey);
+  color: var(--dark_grey);
 }
 .work_wrapper {
   position: relative;
@@ -423,6 +423,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -ms-flexbox;
   display: flex;
   height: 177px;
+  margin-bottom: 44px;
   padding: 32px 28px 26px 29px;
   background: #fff;
   -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
@@ -443,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
-  margin-left: 115px;
+  margin-left: 107px;
 }
 .work_wrapper_block p {
   font-family: "Roboto";
@@ -451,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-size: 15px;
   line-height: 23px;
-  color: var(--dark-grey);
+  color: var(--dark_grey);
 }
 .work_wrapper_block_img-1, .work_wrapper_block_img-2 {
   width: 35px;
@@ -477,7 +478,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 25px;
   padding: 63px 37px 57px 37px;
 }
-.price_title {
+.price_wrapper {
+  padding-left: 69px;
+  margin-top: -13px;
+}
+.price_wrapper_title {
   padding-bottom: 33px;
   font-family: "Roboto";
   font-style: normal;
@@ -486,11 +491,74 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: var(--white);
 }
-.price_subtitle {
+.price_wrapper_subtitle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 30px;
   color: #818181;
+}
+
+.partner {
+  background: #F4F4F4;
+  padding-top: 81px;
+  padding-bottom: 48px;
+}
+.partner_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  color: var(--dark_grey);
+}
+.partner_subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 21px;
+  font-size: 17px;
+  text-align: center;
+  color: var(--dark_grey);
+}
+.partner_carousel {
+  position: relative;
+  margin-top: 30px;
+  padding: 0 60px;
+}
+.partner_carousel_block img {
+  height: 149px;
+  display: block;
+  margin: auto;
+}
+.partner_carousel .slick-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 27px;
+  height: 40px;
+  font-size: 0;
+  border: none;
+}
+.partner_carousel .slick-prev {
+  left: 0;
+  background: url("../img/partner/left.png") no-repeat;
+}
+.partner_carousel .slick-next {
+  right: 0;
+  background: url("../img/partner/right.png") no-repeat;
+}
+.partner_wrapper {
+  width: 61%;
+  margin: auto;
+  padding-top: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--dark_grey);
 }/*# sourceMappingURL=styli.css.map */

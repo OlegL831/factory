@@ -9,21 +9,25 @@
         border-radius: 25px;
         padding: 63px 37px 57px 37px;
     }
-    &_title {
-        padding-bottom: 33px;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 56px;
-        color: var(--white);
-    }
-    &_subtitle {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        color: #818181;
+    &_wrapper {
+        padding-left: 69px;
+        margin-top: -13px;
+        &_title {
+            padding-bottom: 33px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 56px;
+            color: var(--white);
+        }
+        &_subtitle {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 30px;
+            color: #818181;
+        }
     }
 }
