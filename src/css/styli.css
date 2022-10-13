@@ -606,4 +606,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 .collaboration_line-3 {
   margin: auto;
+}
+
+.map_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.map_iframe {
+  width: 60%;
+}
+.map_block {
+  width: 40%;
+}
+.map_block_wrapper {
+  float: right;
+  width: 60%;
+  margin-right: 78px;
+  margin-bottom: 97px;
+  margin-top: 94px;
+}
+.map_block_wrapper h3 {
+  padding-bottom: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: var(--dark_grey);
+}
+.map_block_wrapper_img {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 18px;
+  height: 18px;
+  float: left;
+}
+.map_block_wrapper_p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 30px;
+  color: #333333;
+}
+.map_block_wrapper_red {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--red);
+}
+.map_block_wrapper_mesenger {
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.map_block_wrapper_mesenger_img {
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
 }/*# sourceMappingURL=styli.css.map */
