@@ -21,4 +21,11 @@
         font-size: 24px;
         padding: 19px 24px;
     }
+	&_footer {
+		position: relative;
+		top: 50%;
+		transform: translate(0,-50%);
+		font-size: 18px;
+		padding: 10px 24px;
+	}
 }

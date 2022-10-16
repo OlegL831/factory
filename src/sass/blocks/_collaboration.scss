@@ -3,8 +3,6 @@
     padding-bottom: 89px;
     &_title {
         padding-bottom: 43px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 36px;
         text-align: center;
@@ -21,8 +19,6 @@
             border-radius: 15px;
             margin-bottom: 19px;
             padding: 12px 18px;
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             color: var(--red);
@@ -34,5 +30,4 @@
     &_line-3 {
         margin: auto;
     }
-    
 }

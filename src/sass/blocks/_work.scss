@@ -5,8 +5,6 @@
     margin-top: -32px;
     &_title {
         padding-bottom: 41px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 48px;
         text-align: center;
@@ -35,9 +33,6 @@
             transform: translate(0,-50%);
             margin-left: 107px;
             p {
-
-                font-family: 'Roboto';
-                font-style: normal;
                 font-weight: 400;
                 font-size: 15px;
                 line-height: 23px;
@@ -48,16 +43,11 @@
                 margin-top: 15px;
                 height: 35px;
                 margin-right: 8px;
-
-
-
             }
         }
-        
     }
     &_line {
         width: 100%;
         margin-bottom: -189px;
     }
-
 }

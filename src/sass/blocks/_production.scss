@@ -8,11 +8,9 @@
     }
     &_img-2 {
         width: 100%;
-        margin-bottom: -159px;
+        margin-bottom: -163px;
     }
     &_title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 48px;
         text-align: center;
@@ -39,17 +37,14 @@
             height: 40px;
             font-size: 0;
             border: none;
-
         }
         .slick-prev {
             left: 0;
             background: url('../img/production/left.png') no-repeat;
         }
         .slick-next {
-
             right: 0;
             background: url('../img/production/right.png') no-repeat;
         }
     }
-
 }
