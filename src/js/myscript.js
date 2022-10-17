@@ -8,7 +8,6 @@ $(document).ready(function(){
         dots: true,
         dotsClass: 'slick-dots',
     })
-
     $('.production_carousel').slick({
         arrows: true,
         speed: 2000,
@@ -17,7 +16,6 @@ $(document).ready(function(){
         slidesToShow: 6,
         slidesToScroll: 2,
     })
-
     $('.partner_carousel').slick({
         arrows: true,
         speed: 2000,
@@ -26,4 +24,17 @@ $(document).ready(function(){
         slidesToShow: 5,
         slidesToScroll: 2,
     })
+	$(window).scroll(function() {
+		if($(this).scrollTop()>1200) {
+		  $('.pageup').fadeIn();
+		} else {
+		  $('.pageup').fadeOut();
+		}
+	  });
+	
+	  $("a[href^='#']").click(function() {
+		const _href = $(this).attr("href");
+		$("html,body").animate({scrollTop: $(_href).offset().top+"px"});
+		return false;
+	  })
 });

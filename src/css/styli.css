@@ -644,7 +644,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer_wrapper_block {
   margin-top: 58px;
-  width: 29%;
+  width: 26%;
 }
 .footer_wrapper_block_img {
   display: block;
@@ -661,4 +661,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer_subwrapper:first-child {
   margin-top: 0;
+}
+.footer .pageup {
+  display: none;
+  position: fixed;
+  bottom: 130px;
+  right: 80px;
+  width: 40px;
+  height: 40px;
+}
+.footer .pageup img {
+  width: 100%;
 }/*# sourceMappingURL=styli.css.map */
