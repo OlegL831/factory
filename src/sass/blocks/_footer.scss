@@ -9,7 +9,7 @@
 		}
 		&_block {
 			margin-top: 58px;
-			width: 26%;
+			width: 300px;
 			&_img {
 				display: block;
 				float: left;
@@ -37,6 +37,55 @@
 		height: 40px;
 		img {
 			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 992px) {
+	.footer {
+		&_wrapper {
+			&_logo {
+				img {
+					width: 230px;
+				}
+			}
+			&_block {
+				width: 216px;
+				margin-top: 37px;
+				text-align: center;
+			}
+		}
+	}
+} 
+@media screen and (max-width: 768px) {
+	.footer {
+		&_wrapper {
+			&_logo {
+				img {
+					width: 190px;
+				}
+			}
+			&_block {
+				width: 150px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 540px) {
+	.footer {
+		padding-bottom: 30px;
+		&_wrapper {
+			display: block;
+			&_logo {
+				width: fit-content;
+				margin: auto;
+				img {
+					margin-bottom: 30px;
+				}
+			}
+			&_block {
+				width: 294px;
+				margin: auto;
+			}
 		}
 	}
 }

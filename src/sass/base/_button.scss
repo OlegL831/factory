@@ -29,3 +29,36 @@
 		padding: 10px 24px;
 	}
 }
+@media screen and (max-width: 991px) {
+	.btn {
+		&_price {
+			font-size: 20px;
+			padding: 16px 21px;
+		}
+	}
+}
+@media screen and (max-width: 900px) {
+	.btn {
+		padding: 13px 25px;
+	}
+}
+@media screen and (max-width: 670px) {
+	.btn {
+		font-size: 105%;
+		padding: 10px 15px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.btn {
+		font-size: 90%;
+		padding: 5px 10px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.btn {
+		&_footer {
+			display: block;
+			margin: auto;
+		}
+	}
+}

@@ -1,6 +1,4 @@
 .carousel {
-    position: relative;
-    top: -21px;
     .slick-dots {
         position: relative;
         display: flex;
@@ -27,14 +25,14 @@
     }
 
     &_block {
-        position: absolute;
-        width: 62%;
-        margin-left: 260px;
+		position: absolute;
+		top: 0;
+		width: 600px;
+		margin-top: 100px;
     }
 
     &_title {
         font-weight: 700;
-        top: -530px;
         font-size: 285%;
         line-height: 66px;
         color: var(--white);
@@ -42,7 +40,103 @@
     }
 
     &_btn {
-        margin-top: -240px;
-        position: absolute;
+        margin-top: 20px;
     }
+
+	&_inner {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.carousel {
+		&_title {
+			line-height: 50px;
+		}
+	}
+}
+@media screen and (max-width: 1000px) {
+	.carousel {
+		&_block {
+			width: 406px;
+			margin-top: 60px;
+		}
+		&_title {
+			font-size: 220%;
+		}
+	}
+}
+@media screen and (max-width: 850px) {
+	.carousel {
+		&_title {
+			line-height: 40px;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.carousel {
+		&_block {
+			margin-top: 20px;
+		}
+	}
+}
+@media screen and (max-width: 610px) {
+	.carousel {
+		&_title {
+			margin-top: 10px;
+			line-height: 30px;
+			font-size: 162%;
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.carousel {
+		&_block {
+			width: 90%;
+			margin-top: 0;
+		}
+	}
+}
+@media screen and (max-width: 460px) {
+	.carousel {
+		&_title {
+			font-size: 148%;
+			line-height: 23px;
+		}
+	}
+}
+@media screen and (max-width: 406px) {
+	.carousel {
+		&_title {
+			font-size: 138%;
+		}
+	}
+}
+@media screen and (max-width: 379px) {
+	.carousel {
+		&_title {
+			font-size: 128%;
+		}
+		&_btn {
+			margin-top: 10px;
+		}
+	}
+}
+@media screen and (max-width: 351px) {
+	.carousel {
+		&_title {
+			font-size: 122%;
+			line-height: 19px;
+		}
+	}
+}
+@media screen and (max-width: 335px) {
+	.carousel {
+		&_title {
+			font-size: 112%;
+			line-height: 17px;
+		}
+	}
 }

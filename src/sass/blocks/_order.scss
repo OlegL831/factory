@@ -20,3 +20,35 @@
         color: #818181;
     }
 }
+@media screen and (max-width: 768px) {
+	.order {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width: 620px) {
+	.order {
+		&_subtitle {
+			font-size: 17px;
+			line-height: 20px;
+		}
+	}
+}
+@media screen and (max-width: 460px) {
+	.order {
+		&_title {
+			font-size: 36px;
+			line-height: 34px;
+		}
+	}
+}
+@media screen and (max-width: 375px) {
+	.order {
+		&_title{
+			font-size: 30px;
+		}
+		&_subtitle {
+			font-size: 14px;
+		}
+	}
+}

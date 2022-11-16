@@ -30,12 +30,32 @@
             font-size: 14px;
             margin-bottom: 40px;
             color: var(--white);
-
         }
     }
     &_price {
         width: 86%;
         padding-top: 0;
     }
-   
+}
+@media screen and (max-width: 460px) {
+	.form {
+		width: 300px;
+		&_checkbox {
+			input {
+				margin-top: 0;
+			}
+			label {
+				font-size: 10px;
+				margin-bottom: 30px;
+			}
+		}
+		
+	}
+}
+@media screen and (max-width: 360px) {
+	.form {
+		&_price {
+			width: 268px;
+		}
+	}
 }

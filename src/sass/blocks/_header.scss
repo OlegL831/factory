@@ -1,5 +1,8 @@
 .header {
     padding-top: 37px;
+	&_logo {
+		width: 100%;
+	}
     &_blocks {
         display: flex;
         justify-content: space-between;
@@ -27,7 +30,9 @@
     &_nav {
         position: absolute;
         z-index: 1;
-        top: -20px;
+		&_line {
+			width: 100%;
+		}
         nav {
             ul {
                 display: flex;
@@ -46,4 +51,104 @@
             }
         }
     }
+}
+@media screen and (max-width: 1199px) {
+	.header {
+		&_blocks {
+			&_email {
+				margin-top: 16px;
+			}
+			&_tel {
+				margin-top: 12px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	.header {
+		&_blocks {
+			&_email {
+				margin-top: 8px;
+				a {
+					font-size: 16px;
+				}
+			}
+			&_tel {
+				margin-top: 6px;
+				a {
+					font-size: 20px;
+				}
+			}
+		}
+		&_nav {
+			nav {
+				ul {
+					li {
+						a {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px){
+	.header {
+		padding-top: 20px;
+		&_blocks {
+			margin-left: 30px;
+			display: block;
+			&_email {
+				margin-top: 0px;
+				a {
+					font-size: 18px;
+				}
+			}
+			&_tel {
+				margin-top: 6px;
+				a {
+					font-size: 22px;
+				}
+			}
+		}
+		&_nav {
+			display: none;
+		}
+	}
+}
+@media screen and (max-width: 600px){
+	.header {
+		&_blocks {
+			margin-left: 15px;
+			&_email {
+				a {
+					font-size: 13px;
+				}
+			}
+			&_tel {
+				a {
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.header {
+		&_blocks {
+			margin-left: 5px;
+			&_email {
+				a {
+					font-size: 10px;
+				}
+			}
+			&_tel {
+				margin-top: 2px;
+				a {
+					font-size: 14px;
+				}
+			}
+		}
+	}
 }
