@@ -1,4 +1,13 @@
-$(document).ready(function(){
+const hamburger = document.querySelector('.hamburger'),
+	menu = document.querySelector('.menu'),
+	close = document.querySelector('.menu__close');
+hamburger.addEventListener('click', () => {
+	menu.classList.add('active');
+})
+close.addEventListener('click', () => {
+	menu.classList.remove('active');
+})
+$(document).ready(function() {
     $('.carousel_inner').slick({
         speed: 4000,
         autoplay: true,
@@ -89,11 +98,11 @@ $(document).ready(function(){
 		} else {
 		  $('.pageup').fadeOut();
 		}
-	  });
+	});
 	
-	  $("a[href^='#']").click(function() {
+	$("a[href^='#']").click(function() {
 		const _href = $(this).attr("href");
 		$("html,body").animate({scrollTop: $(_href).offset().top+"px"});
 		return false;
-	  })
+	})
 });
