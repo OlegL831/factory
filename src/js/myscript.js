@@ -6,7 +6,15 @@ hamburger.addEventListener('click', () => {
 })
 close.addEventListener('click', () => {
 	menu.classList.remove('active');
-})
+});
+
+$('[data-modal=consultation]').on('click', function() {
+	$('.overlay, #consultation').fadeIn('slow');
+});
+$('.overlay__close').on('click', function() {
+	$('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+});
+
 $(document).ready(function() {
     $('.carousel_inner').slick({
         speed: 4000,
